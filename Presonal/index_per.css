@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Hebrew:wght@200;300;700&display=swap');
+*{
+    font-family: 'IBM Plex Sans Hebrew', sans-serif;;
+}
+
+/* ------Head Upside------ */
+.head-up{
+    background-color: #3574B8;
+}
+.contact{
+    padding: 10px 20px ;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+}
+ul.contact{
+    display: flex;
+
+}
+.contact li{
+    list-style-type: none;
+    padding-left: 20px;
+    color: aliceblue;
+    font-weight: bold;
+}
+.contact li a{
+    color: aliceblue;
+
+}
+
+.contact2{
+    display: flex;
+    padding: 10px 20px ;
+}
+.contact2 li{
+    list-style-type: none;
+    
+}
+.contact2 li a{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 0 20px;
+}
+/* ------Head Upside------  end*/
+
+
+
+/* ------Head Down------ */
+
+.head-down{
+   
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.head-down img{
+
+    width: 180px;
+
+}
+
+.dropdown a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 30px 10px;
+    color: gray;
+    font-weight: bold;
+}
+.dropdown a:hover{
+    
+    color: #F79122;
+    transition: 0.5s;
+}
+
+/* ------Head Down End------ */
+
+/* Cover Satrt */
+
+.coverimg {
+    width: 1500px;
+    position: relative;
+    text-align: center;
+    color: aliceblue;
+    font-weight: bold;
+
+    
+
+}
+.coverimg img{
+    width: 1500px;
+}
+hr{
+    height: 20px;
+    background-color: #3574B8;
+    border: 5px solid #3574B8;
+    box-shadow: -10px -10px 50px #3574B8;
+   margin-top: 10px;
+}
+.para{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.para h1{
+    font-size: 3rem;
+}
+.para p{
+    font-size: 1.5rem;
+}
+/* cover enbd */
+
+
+/* card */
+.all-card{
+    max-width: 1400px;
+    margin: 40px auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+   
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    flex-basis: 23%;
+    border: 1px solid #3574B8; ;
+    border-radius: 30px;
+    color: aliceblue;
+    position: relative;
+    text-align: center;
+    box-shadow: -10px 10px 50px black ;
+}
+.card button{
+
+   padding: 10px 20px;
+   background-color: #F79122;
+   border: none;
+   font-weight: bolder;
+   border-radius: 20px;
+}
+.card button:hover{
+    background-color: #e47600;
+    transition: 0.5s;
+}
+
+.card:nth-child(1){background-color: #3574B8;}
+.card:nth-child(2){background-color: #3574B8;}
+.card:nth-child(3){background-color: #3574B8;}
+.card:nth-child(4){background-color: #3574B8;}
+
+
+/* about patr */
+
+.about{
+    display: flex;
+    box-sizing: border-box;
+}
+
+.left-about{
+    flex: 3;
+    width: 30%;
+    padding: 0 40px;
+    text-align: justify;
+}
+
+.right-about{
+    box-shadow:-10px 10px 50px black;
+    flex: 3;
+    background-color: #3574B8;
+    border-radius: 50px;
+}
+.right-about img{
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+.right-about h2{
+    text-align: center;
+    color: aliceblue;
+}
+.left-about p{
+    font-weight: 300;
+}
+.left-about p a{
+    text-decoration: none;
+    color: #F79122;
+    font-weight: 700;
+}
+.left-about p a:hover{
+    
+    color: #e47600;
+
+}
